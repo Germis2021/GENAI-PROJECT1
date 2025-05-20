@@ -20,9 +20,9 @@ load_dotenv()  # take environment variables
 # Load the GitHub token from the environment variable
 # Ensure you have a .env file with the following line:
 
-secret = os.environ["SECRET"]
 
-token = os.environ["GITHUB_TOKEN"]
+
+token = os.environ["SECRET"]
 endpoint = "https://models.github.ai/inference"
 model = "openai/gpt-4.1-nano"
 
