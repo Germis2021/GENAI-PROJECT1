@@ -22,7 +22,7 @@ load_dotenv()  # take environment variables
 
 
 
-token = os.getenv["SECRET"]
+token = os.getenv("SECRET")
 endpoint = "https://models.github.ai/inference"
 model = "openai/gpt-4.1-nano"
 
