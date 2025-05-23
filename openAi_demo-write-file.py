@@ -12,6 +12,8 @@ from dotenv import load_dotenv
 
 load_dotenv()  # take environment variables
 
+#def write_joke_to_file(joke):
+
 # from .env file
 # Load the GitHub token from the environment variable
 # Ensure you have a .env file with the following line:
