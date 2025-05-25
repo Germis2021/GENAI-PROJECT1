@@ -24,7 +24,7 @@ client = OpenAI(
 print("Uzduok savo klausima (Jei nori išeiti spausk'exit' arba 'quit' ):")
 
 while True:
-    user_question = input()
+    user_question = input("Tu: ")
 
     if user_question.lower() in ["exit", "quit"]:
         print("Iki!")
